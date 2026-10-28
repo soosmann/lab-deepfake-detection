@@ -30,5 +30,6 @@ nohup.out
 # Archivos grandes de modelos descargados
 models/yermandy/
 
-# Zips
+# Zips y Otros
 *.zip
+.DS_Store

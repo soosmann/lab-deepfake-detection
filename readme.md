@@ -1,4 +1,6 @@
-# DeepFakes Detection Lab
+# DeepFakes Detection 
+
+Creators: Marcel Hofmann, Eric Ayestaran, Unax Murua
 
 Cross-dataset deepfake detection system trained on FaceForensics++ and evaluated on Celeb-DF.
 
