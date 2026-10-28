@@ -1,0 +1,34 @@
+# --- DATOS PESADOS ---
+# Ignoramos las bases de datos porque son gigas de frames
+data/
+Task_1/
+Task_2_3/
+
+# --- MODELOS ---
+# Ignoramos los pesos entrenados (.pth) para no saturar GitHub
+models/*.pth
+
+# --- PYTHON ---
+# Archivos temporales que genera Python al ejecutar
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- IDE (Visual Studio Code) ---
+.vscode/
+.history/
+
+# Datasets de frames
+FaceForensics_Faces_1.3x/
+FaceForensics_Frames/
+FaceForensics_Dataset/
+
+# Logs
+logs_*.txt
+nohup.out
+
+# Archivos grandes de modelos descargados
+models/yermandy/
+
+# Zips
+*.zip
